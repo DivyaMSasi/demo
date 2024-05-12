@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-5 ms-5 navfonts ">
+                    <li class="nav-item">
+                        <a class="nav-title ps-5 pe-4" href="#">Contacts </a>
+                        </li>
+                    <div class="vl mt-2 ps-3"></div>
+                    <li class="nav-item">
+                    <a class="nav-title ps-3 pe-4" href="#">About Us</a>
+                    </li>
+                    <div class="vl mt-2 ps-3 "></div>
+                    <li class="nav-item">
+                    <a class="nav-title ps-3 " href="#">Purchase</a>
+                    </li>
+                    
+                </ul>
+                <div class="d-flex gap-2 me-5 pe-5" >
+                    <div class="rounded-5 circle facebook "><i class="fa-brands fa-facebook-f text-secondary d-flex justify-content-center align-items-center pt-1"></i></div>
+                    <div class="rounded-5 circle twitter "><i class="fa-brands fa-twitter text-secondary d-flex justify-content-center align-items-center pt-1"></i></div>
+                    <div class="rounded-5 circle dribbble"><i class="fa-brands fa-dribbble text-secondary d-flex justify-content-center align-items-center pt-1"></i></div>
+                    <div class="rounded-5 circle google"><i class="fa-brands fa-google-plus text-secondary d-flex justify-content-center align-items-center pt-1"></i></div>
+                    <div class="rounded-5 circle instagram"><i class="fa-brands fa-instagram text-secondary d-flex justify-content-center align-items-center pt-1"></i></div>
+                    <div class="rounded-5 circle pinterest"><i class="fa-brands fa-pinterest text-secondary d-flex justify-content-center align-items-center pt-1"></i></div>
+                    <div class="rounded-5 circle linkedin"><i class="fa-brands fa-linkedin text-secondary d-flex justify-content-center align-items-center pt-1"></i></div>
+                    <!-- class="fa fa-dribbble" -->
+                </div>
+                </div>
+            </div>
+            </nav>
+    </header>
+    <!-- logo imag -->
+    <div class="d-flex justify-content-center align-items-center mt-4">
+        <img class="logo_img" src="https://nunforest.com/olimpia/olimpia-demo/images/logo.png" alt="logo image" width="100%">
+    </div>
+    <!--  navbar-->
+      
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid d-flex justify-content-center align-items-center">
+             
+             
+              <div class="" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-head dropdown-toggle me-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-head dropdown-toggle me-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-head dropdown-toggle me-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-head active me-5" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-head active me-5" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-head active me-5" aria-current="page" href="#">Home</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-head dropdown-toggle me-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-head dropdown-toggle me-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-head dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+        </div>
+        </nav> -->
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid  mt-5 nav-box" >
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                HOMEPAGE
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                POST FORMATS
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                CATEGORY STYLES
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">LIFESTYLE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">TRAVEL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">FOOD</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                DESIGN
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PAGES
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SHOP
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            </ul>
+            <form class="d-flex" role="search">
+            
+            <i class="fa fa-search"></i>
+            </form>
+        </div>
+        </div>
+    </nav>
+    <!-- Banner -->
+    <div id="carouselExampleControls" class="carousel slide container-fluid w-75 mt-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="./images/slide-1.jpg" class="d-block w-100" alt="...">
+        <div>
+    <div class="carousel-caption  box-banner px-5 py-5 ">
+        <span class="text-uppercase common-span">Lifestyle</span>
+        <h1  class="text-uppercase banner-title">Ut aliquam sollicitudin leo.</h1>
+        <span class="text-uppercase common-span">by John Doe, March 06, 2015</span>
+    </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <img src="./images/slide-2.jpg" class="d-block w-100" alt="...">
+    <div class="carousel-caption  box-banner px-5 py-5 ">
+    <span class="text-uppercase common-span">Lifestyle</span>
+    <h1  class="text-uppercase banner-title">Ut aliquam sollicitudin leo.</h1>
+    <span class="text-uppercase common-span">by John Doe, March 06, 2015</span>
+    </div>
+</div>
+<div class="carousel-item">
+    <img src="./images/slide-3.jpg" class="d-block w-100" alt="...">
+    <div class="carousel-caption  box-banner px-5 py-5 ">
+    <span class="text-uppercase common-span">Lifestyle</span>
+    <h1  class="text-uppercase banner-title">Ut aliquam sollicitudin leo.</h1>
+    <span class="text-uppercase common-span">by John Doe, March 06, 2015</span>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+    </div>
+    <!-- FEATURED  -->
+    <div class="container-fluid bgimage mt-5 mb-5">
+<div>
+<h6 class="text-uppercase text-center font-bold text-light" style="letter-spacing: 3px">
+    FEATURED POSTS
+</h6>
+<!-- slider -->
+<div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel">
+    <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    
+    </ol>
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <div class="d-flex">
+        <div class="card">
+            <img src="./images/fea-img-4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <div class="carousel-caption-2">
+                <span class="text-uppercase slider-span">Lifestyle</span>
+                <p  class="text-uppercase text-center font-bold slider-title"> Sed pretium, ligula sollicitudin laoreet viverra, tortor libero .</p>
+                <span class="text-uppercase text-center common-span">by John Doe, March 06, 2015</span>
+            </div>
+            
+            <p class="card-text">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+            </div>
+        </div>
+            <!--  -->
+            <div class="card">
+            <img src="./images/fea-img-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <div class="carousel-caption-2">
+                <span class="text-uppercase slider-span">Lifestyle</span>
+                <p  class="text-uppercase text-center font-bold slider-title"> Sed pretium, ligula sollicitudin laoreet viverra, tortor libero .</p>
+                <span class="text-uppercase text-center common-span">by John Doe, March 06, 2015</span>
+            </div>
+            <p class="card-text">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+            </div>
+        </div>
+<!--  -->
+            <div class="card">
+<img src="./images/fea-img-3.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+    <div class="carousel-caption-2">
+    <span class="text-uppercase slider-span">Lifestyle</span>
+    <p  class="text-uppercase text-center font-bold slider-title"> Sed pretium, ligula sollicitudin laoreet viverra, tortor libero .</p>
+    <span class="text-uppercase text-center common-span">by John Doe, March 06, 2015</span>
+    </div>
+    
+    <p class="card-text">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+</div>
+            </div>
+            <!--  -->
+            <div class="card">
+                <img src="./images/fea-img-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <div class="carousel-caption-2">
+                    <span class="text-uppercase slider-span">Lifestyle</span>
+                    <p  class="text-uppercase text-center font-bold slider-title"> Sed pretium, ligula sollicitudin laoreet viverra, tortor libero .</p>
+                    <span class="text-uppercase text-center common-span">by John Doe, March 06, 2015</span>
+                </div>
+                
+                <p class="card-text">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="card">
+                <img src="./images/fea-img-5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <div class="carousel-caption-2">
+                    <span class="text-uppercase slider-span">Lifestyle</span>
+                    <p  class="text-uppercase text-center font-bold slider-title"> Sed pretium, ligula sollicitudin laoreet viverra, tortor libero .</p>
+                    <span class="text-uppercase text-center common-span">by John Doe, March 06, 2015</span>
+                </div>
+                
+                <p class="card-text">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                </div>
+            </div>
+        </div>
+<!--  -->
+    </div>
+    <div class="carousel-item">
+        <img class="d-block w-100" src="..." alt="Second slide">
+    </div>
+    <div class="carousel-item">
+        <img class="d-block w-100" src="..." alt="Third slide">
+    </div>
+    </div>
+    
+</div>
+<!--  -->
+</div>
+
+    </div>
+    <!-- main -->
+    <div class="row mt-5 me-5 mb-5">
+        <div class="col-1"></div>
+        <!-- first column -->
+        <div class="col-6 me-5">
+            <!-- setion-1-->
+            <div class="row sectn1">
+                <div>
+                    <img src="./post-img-1.jpg" alt="" style="width: 750px;" >
+                </div>
+                <div style="position: absolute;background-color: white;left: 170px;top: 1750px; width: 680px;">
+                    <div class="row p-3 w-100">
+                        <div style="display: flex; justify-content: space-between;color: var(--sec);">
+                            <span class="share"><i class="fa-solid fa-share-nodes me-3"></i><a href="" >LIFESTYLE</a></span>
+                            <span style="font-size: 12px;">5<i class="fa-regular fa-heart ms-1" style="font-size: 14px;"></i></span>
+                        </div>
+                    </div>
+                    <div class="row w-100">
+                        <div class="col-1 mt-3 hidden" >
+                            <div  style="opacity: 0;">
+                                <div class="rounded-5 circle mb-2 ms-1 facebook"><a href="" class="icon"><i class="fa-brands fa-facebook-f text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 twitter"><a href="" class="icon"><i class="fa-brands fa-twitter text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 dribbble"><a href="" class="icon"><i class="fa-brands fa-dribbble text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 pinterest"><a href="" class="icon"><i class="fa-brands fa-pinterest text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 linkedin"><a href="" class="icon"><i class="fa-brands fa-linkedin text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-11">
+                            <div class="row">
+                                <a href="" style="text-decoration: none; color: black;font-size: 30px;" class="heading"><b>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero</b></a>
+                            </div>
+                            <div class="row">
+                                <span class="by-john"> BY JOHN DOE, MARCH 06, 2015</span>
+                                <p class="paragraph">Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede,</p>
+                            </div>
+                            <div style="display: flex;justify-content: space-between;">
+                                <button class="main_butn">CONTINUE READING ...</button>
+                                <a href="" class="main_link">4 COMENTS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section-2 -->
+            <div class="row" style="margin-top:220px">
+                <!-- 1st column -->
+                <div class="col-6">
+                    <div class="row zoom_in"><div>
+                        <img src="./sect2-img1.jpg" alt="">
+                    </div></div>
+                    <div class="row p-3 w-100">
+                        <div style="display: flex; justify-content: space-between;color: var(--sec);">
+                            <span class="share"><i class="fa-solid fa-share-nodes me-3"></i><a href="" >LIFESTYLE</a></span>
+                            <span style="font-size: 12px;">5<i class="fa-regular fa-heart ms-1" style="font-size: 14px;"></i></span>
+                        </div>
+                    </div>
+                    <div class="row w-100">
+                        <div class="col-1 mt-3 hidden">
+                            <div style="opacity: 0;">
+                                <div class="rounded-5 circle mb-2 ms-1 facebook"><a href="" class="icon"><i class="fa-brands fa-facebook-f text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 twitter"><a href="" class="icon"><i class="fa-brands fa-twitter text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 dribbble"><a href="" class="icon"><i class="fa-brands fa-dribbble text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 pinterest"><a href="" class="icon"><i class="fa-brands fa-pinterest text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 linkedin"><a href="" class="icon"><i class="fa-brands fa-linkedin text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-11 ps-4">
+                            <div class="row mt-3 mb-2">
+                                <a href="" style="text-decoration: none; color: black;" class="heading column-headings"><b>Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus.</b></a>
+                            </div>
+                            <div class="row">
+                                <span class="by-john"> BY JOHN DOE, MARCH 06, 2015</span>
+                                <p class="paragraph sml_para">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                            </div>
+                            <div style="display: flex;justify-content: space-between;">
+                                <button class="hover_butn sml_btn">CONTINUE READING ...</button>
+                                <a href="" class="hover_link sml_link">4 COMENTS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd column -->
+                <div class="col-6">
+                    <div class="row zoom_in"><div><img src="./sect2-img2.jpg" alt="" ></div></div>
+                    <div class="row p-3 w-100">
+                        <div style="display: flex; justify-content: space-between;color: var(--sec);">
+                            <span class="share"><i class="fa-solid fa-share-nodes me-3"></i><a href="" >LIFESTYLE</a></span>
+                            <span style="font-size: 12px;">5<i class="fa-regular fa-heart ms-1" style="font-size: 14px;"></i></span>
+                        </div>
+                    </div>
+                    <div class="row w-100">
+                        <div class="col-1 mt-3 hidden">
+                            <div style="opacity: 0;">
+                                <div class="rounded-5 circle mb-2 ms-1 facebook"><a href="" class="icon"><i class="fa-brands fa-facebook-f text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 twitter"><a href="" class="icon"><i class="fa-brands fa-twitter text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 dribbble"><a href="" class="icon"><i class="fa-brands fa-dribbble text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 pinterest"><a href="" class="icon"><i class="fa-brands fa-pinterest text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 linkedin"><a href="" class="icon"><i class="fa-brands fa-linkedin text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-11 ps-4">
+                            <div class="row mt-3 mb-2">
+                                <a href="" style="text-decoration: none; color: black;" class="heading column-headings"><b>Etiam pellentesque mauris ut lectus.</b></a>
+                            </div>
+                            <div class="row">
+                                <span class="by-john"> BY JOHN DOE, MARCH 06, 2015</span>
+                                <p class="paragraph sml_para">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                            </div>
+                            <div style="display: flex;justify-content: space-between;">
+                                <button class="sml_btn">CONTINUE READING ...</button>
+                                <a href="" class="sml_link">4 COMENTS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section-3 -->
+            <div class="row " style="margin-top: 80px">
+                <!-- 1st column -->
+                <div class="col-6">
+                    <div class="row zoom_in"><div><img src="./travel-1.jpg" alt=""></div></div>
+                    <div class="row p-3 w-100">
+                        <div style="display: flex; justify-content: space-between;color: var(--sec);">
+                            <span class="share"><i class="fa-solid fa-share-nodes me-3"></i><a href="" >TRAVEL</a></span>
+                            <span style="font-size: 12px;">5<i class="fa-regular fa-heart ms-1" style="font-size: 14px;"></i></span>
+                        </div>
+                    </div>
+                    <div class="row w-100">
+                        <div class="col-1 mt-3 hidden">
+                            <div style="opacity: 0;">
+                                <div class="rounded-5 circle mb-2 ms-1 facebook"><a href="" class="icon"><i class="fa-brands fa-facebook-f text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 twitter"><a href="" class="icon"><i class="fa-brands fa-twitter text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 dribbble"><a href="" class="icon"><i class="fa-brands fa-dribbble text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 pinterest"><a href="" class="icon"><i class="fa-brands fa-pinterest text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 linkedin"><a href="" class="icon"><i class="fa-brands fa-linkedin text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-11 ps-4">
+                            <div class="row mt-3 mb-2">
+                                <a href="" style="text-decoration: none; color: black;" class="heading column-headings"><b>Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.</b></a>
+                            </div>
+                            <div class="row">
+                                <span class="by-john"> BY JOHN DOE, MARCH 06, 2015</span>
+                                <p class="paragraph sml_para">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                            </div>
+                            <div style="display: flex;justify-content: space-between;">
+                                <button class="hover_butn sml_btn">CONTINUE READING ...</button>
+                                <a href="" class="hover_link sml_link">4 COMENTS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd column -->
+                <div class="col-6">
+                    <div class="row zoom_in"><div><img src="./travel-2.jpg" alt="" ></div></div>
+                    <div class="row p-3 w-100">
+                        <div style="display: flex; justify-content: space-between;color: var(--sec);">
+                            <span class="share"><i class="fa-solid fa-share-nodes me-3"></i><a href="" >TRAVEL</a></span>
+                            <span style="font-size: 12px;">5<i class="fa-regular fa-heart ms-1" style="font-size: 14px;"></i></span>
+                        </div>
+                    </div>
+                    <div class="row w-100">
+                        <div class="col-1 mt-3 hidden">
+                            <div style="opacity: 0;">
+                                <div class="rounded-5 circle mb-2 ms-1 facebook"><a href="" class="icon"><i class="fa-brands fa-facebook-f text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 twitter"><a href="" class="icon"><i class="fa-brands fa-twitter text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 dribbble"><a href="" class="icon"><i class="fa-brands fa-dribbble text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 pinterest"><a href="" class="icon"><i class="fa-brands fa-pinterest text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 linkedin"><a href="" class="icon"><i class="fa-brands fa-linkedin text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-11 ps-4">
+                            <div class="row mt-3 mb-2">
+                                <a href="" style="text-decoration: none; color: black;" class="heading column-headings"><b>Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem.</b></a>
+                            </div>
+                            <div class="row">
+                                <span class="by-john"> BY JOHN DOE, MARCH 06, 2015</span>
+                                <p class="paragraph sml_para">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                            </div>
+                            <div style="display: flex;justify-content: space-between;">
+                                <button class="hover_butn sml_btn">CONTINUE READING ...</button>
+                                <a href="" class="hover_link sml_link">4 COMENTS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section-4 -->
+            <div class="row " style="margin-top: 80px">
+                <!-- 1st column -->
+                <div class="col-6">
+                    <div class="row zoom_in"><div><img src="./sect4-img1.jpg" alt=""></div></div>
+                    <div class="row p-3 w-100">
+                        <div style="display: flex; justify-content: space-between;color: var(--sec);">
+                            <span class="share"><i class="fa-solid fa-share-nodes me-3"></i><a href="" >LIFESTYLE</a></span>
+                            <span style="font-size: 12px;">5<i class="fa-regular fa-heart ms-1" style="font-size: 14px;"></i></span>
+                        </div>
+                    </div>
+                    <div class="row w-100">
+                        <div class="col-1 mt-3 hidden">
+                            <div style="opacity: 0;">
+                                <div class="rounded-5 circle mb-2 ms-1 facebook"><a href="" class="icon"><i class="fa-brands fa-facebook-f text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 twitter"><a href="" class="icon"><i class="fa-brands fa-twitter text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 dribbble"><a href="" class="icon"><i class="fa-brands fa-dribbble text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 pinterest"><a href="" class="icon"><i class="fa-brands fa-pinterest text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 linkedin"><a href="" class="icon"><i class="fa-brands fa-linkedin text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-11 ps-4">
+                            <div class="row mt-3 mb-2">
+                                <a href="" style="text-decoration: none; color: black;" class="heading column-headings"><b>Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus.</b></a>
+                            </div>
+                            <div class="row">
+                                <span class="by-john"> BY JOHN DOE, MARCH 06, 2015</span>
+                                <p class="paragraph sml_para">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                            </div>
+                            <div style="display: flex;justify-content: space-between;">
+                                <button class="hover_butn sml_btn">CONTINUE READING ...</button>
+                                <a href="" class="hover_link sml_link">4 COMENTS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd column -->
+                <div class="col-6">
+                    <div class="row zoom_in"><div><img src="./travel-2.jpg" alt="" ></div></div>
+                    <div class="row p-3 w-100">
+                        <div style="display: flex; justify-content: space-between;color: var(--sec);">
+                            <span class="share"><i class="fa-solid fa-share-nodes me-3"></i><a href="" >FOOD</a></span>
+                            <span style="font-size: 12px;">5<i class="fa-regular fa-heart ms-1" style="font-size: 14px;"></i></span>
+                        </div>
+                    </div>
+                    <div class="row w-100">
+                        <div class="col-1 mt-3 hidden">
+                            <div style="opacity: 0;">
+                                <div class="rounded-5 circle mb-2 ms-1 facebook"><a href="" class="icon"><i class="fa-brands fa-facebook-f text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 twitter"><a href="" class="icon"><i class="fa-brands fa-twitter text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 dribbble"><a href="" class="icon"><i class="fa-brands fa-dribbble text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 pinterest"><a href="" class="icon"><i class="fa-brands fa-pinterest text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 linkedin"><a href="" class="icon"><i class="fa-brands fa-linkedin text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-11 ps-4">
+                            <div class="row mt-3 mb-2">
+                                <a href="" style="text-decoration: none; color: black;" class="heading column-headings"><b>Etiam pellentesque mauris ut lectus.</b></a>
+                            </div>
+                            <div class="row">
+                                <span class="by-john"> BY JOHN DOE, MARCH 06, 2015</span>
+                                <p class="paragraph sml_para">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                            </div>
+                            <div style="display: flex;justify-content: space-between;">
+                                <button class="hover_butn sml_btn">CONTINUE READING ...</button>
+                                <a href="" class="hover_link sml_link">4 COMENTS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section-5 -->
+            <div class="row " style="margin-top: 80px">
+                <!-- 1st column -->
+                <div class="col-6">
+                    <div class="row zoom_in"><div><img src="./sect5-img1.jpg" alt=""></div></div>
+                    <div class="row p-3 w-100">
+                        <div style="display: flex; justify-content: space-between;color: var(--sec);">
+                            <span class="share"><i class="fa-solid fa-share-nodes me-3"></i><a href="" >FOOD</a></span>
+                            <span style="font-size: 12px;">5<i class="fa-regular fa-heart ms-1" style="font-size: 14px;"></i></span>
+                        </div>
+                    </div>
+                    <div class="row w-100">
+                        <div class="col-1 mt-3 hidden">
+                            <div style="opacity: 0;">
+                                <div class="rounded-5 circle mb-2 ms-1 facebook"><a href="" class="icon"><i class="fa-brands fa-facebook-f text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 twitter"><a href="" class="icon"><i class="fa-brands fa-twitter text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 dribbble"><a href="" class="icon"><i class="fa-brands fa-dribbble text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 pinterest"><a href="" class="icon"><i class="fa-brands fa-pinterest text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 linkedin"><a href="" class="icon"><i class="fa-brands fa-linkedin text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-11 ps-4">
+                            <div class="row mt-3 mb-2">
+                                <a href="" style="text-decoration: none; color: black;" class="heading column-headings"><b>Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo.</b></a>
+                            </div>
+                            <div class="row">
+                                <span class="by-john"> BY JOHN DOE, MARCH 06, 2015</span>
+                                <p class="paragraph sml_para">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                            </div>
+                            <div style="display: flex;justify-content: space-between;">
+                                <button class="hover_butn sml_btn">CONTINUE READING ...</button>
+                                <a href="" class="hover_link sml_link">4 COMENTS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd column -->
+                <div class="col-6">
+                    <div class="row zoom_in"><div><img src="./sect5-img2.jpg" alt="" ></div></div>
+                    <div class="row p-3 w-100">
+                        <div style="display: flex; justify-content: space-between;color: var(--sec);">
+                            <span class="share"><i class="fa-solid fa-share-nodes me-3"></i><a href="" >FOOD</a></span>
+                            <span style="font-size: 12px;">5<i class="fa-regular fa-heart ms-1" style="font-size: 14px;"></i></span>
+                        </div>
+                    </div>
+                    <div class="row w-100">
+                        <div class="col-1 mt-3 hidden">
+                            <div style="opacity: 0;">
+                                <div class="rounded-5 circle mb-2 ms-1 facebook"><a href="" class="icon"><i class="fa-brands fa-facebook-f text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 twitter"><a href="" class="icon"><i class="fa-brands fa-twitter text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 dribbble"><a href="" class="icon"><i class="fa-brands fa-dribbble text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 pinterest"><a href="" class="icon"><i class="fa-brands fa-pinterest text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                <div class="rounded-5 circle mb-2 ms-1 linkedin"><a href="" class="icon"><i class="fa-brands fa-linkedin text-secondary d-flex justify-content-center align-items-center mt-2"></i></a></div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-11 ps-4">
+                            <div class="row mt-3 mb-2">
+                                <a href="" style="text-decoration: none; color: black;" class="heading column-headings"><b>Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo.</b></a>
+                            </div>
+                            <div class="row">
+                                <span class="by-john"> BY JOHN DOE, MARCH 06, 2015</span>
+                                <p class="paragraph sml_para">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                            </div>
+                            <div style="display: flex;justify-content: space-between;">
+                                <button class="hover_butn sml_btn">CONTINUE READING ...</button>
+                                <a href="" class="hover_link sml_link">4 COMENTS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- second column -->
+        <div class="col-4 ms-5">
+            <!-- about me -->
+            <div class="row mb-5">
+                <h5 class="sml_headings">ABOUT ME</h5>
+                <img src="./hr img.png" alt="" class="w-75 ms-5">
+                <div><img src="./avatar.jpg" alt=""  id="avatar"></div>
+                <h6 style="text-align: center;font-size: 18px;margin-top: 25px;margin-bottom: 15px;">John Doe</h6>
+                <span class="share mb-3" style="text-align: center;">I AM A BLOGGER LIVING IN NEW YORK</span>
+                <p class="paragraph text-center ">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+                <div class="d-flex gap-2 justify-content-center align-items-center" >
+                    <div class="rounded-5 circle facebook"><a href="" class="icon"><i class="fa-brands fa-facebook-f text-secondary d-flex justify-content-center align-items-center mt-1 pt-1"></i></a></div>
+                    <div class="rounded-5 circle twitter"><a href="" class="icon"><i class="fa-brands fa-twitter text-secondary d-flex justify-content-center align-items-center mt-1 pt-1"></i></a></div>
+                    <div class="rounded-5 circle dribbble"><a href="" class="icon"><i class="fa-brands fa-dribbble text-secondary d-flex justify-content-center align-items-center mt-1 pt-1"></i></a></div>
+                    <div class="rounded-5 circle google"><a href="" class="icon"><i class="fa-brands fa-google-plus text-secondary d-flex justify-content-center align-items-center mt-1 pt-1"></i></a></div>
+                    <div class="rounded-5 circle instagram"><a href="" class="icon"><i class="fa-brands fa-instagram text-secondary d-flex justify-content-center align-items-center mt-1 pt-1"></i></a></div>
+                    <div class="rounded-5 circle pinterest"><a href="" class="icon"><i class="fa-brands fa-pinterest text-secondary d-flex justify-content-center align-items-center mt-1 pt-1"></i></a></div>
+                    <div class="rounded-5 circle linkedin"><a href="" class="icon"><i class="fa-brands fa-linkedin text-secondary d-flex justify-content-center align-items-center mt-1 pt-1"></i></a></div>
+                    <!-- class="fa fa-dribbble" -->
+                   </div>
+            </div>
+            <!-- instagram -->
+            <div class="row mt-5">
+                <h5 class="sml_headings">INSTAGRAM FEED</h5>
+                <img src="./hr img.png" alt="" class="w-75 ms-5">
+                <!-- insta img -->
+                <div class="row mt-4">
+                    <div class="col-3 d-flex "><a href="" class="insta"><img src="./insta-1.jpg" alt="" ></a></div>
+                    <div class="col-3"><a href=""><img src="./insta-2.jpg" alt=""></a></div>
+                    <div class="col-3"><a href=""><img src="./insta-3.jpg" alt=""></a></div>
+                    <div class="col-3"><a href=""><img src="./insta-4.jpg" alt=""></a></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3"><a href=""><img src="./insta-5.jpg" alt=""></a></div>
+                    <div class="col-3"><a href=""><img src="./insta-6.jpg" alt=""></a></div>
+                    <div class="col-3"><a href=""><img src="./insta-7.jpg" alt=""></a></div>
+                    <div class="col-3"><a href=""><img src="./insta-8.jpg" alt=""></a></div>
+                </div>
+            </div>
+            <!-- category -->
+            <div class="row mt-5">
+                <h5 class="sml_headings">CATEGORIES</h5>
+                <img src="./hr img.png" alt="" class="w-75 ms-5">
+                <a href="" style="display: flex;justify-content: space-between; text-decoration: none;font-size: 11px;" class="share mt-3 mb-2 category">
+                    <div>FEATURED</div>
+                    <div>25</div>
+                </a><hr>
+                <a href="" style="display: flex;justify-content: space-between; text-decoration: none;font-size: 11px;" class="share mt-2 mb-2 category">
+                    <div>LIFESTYLE</div>
+                    <div>12</div>
+                </a><hr>
+                <a href="" style="display: flex;justify-content: space-between; text-decoration: none;font-size: 11px;" class="share mt-2 mb-2 category">
+                    <div>LIFESTYLE</div>
+                    <div>05</div>
+                </a><hr>
+                <a href="" style="display: flex;justify-content: space-between; text-decoration: none;font-size: 11px;" class="share mt-2 mb-2 category">
+                    <div>FOOD</div>
+                    <div>56</div>
+                </a><hr>
+                <a href="" style="display: flex;justify-content: space-between; text-decoration: none;font-size: 11px;" class="share mt-2 mb-2 category">
+                    <div>DESIGN</div>
+                    <div>56</div>
+                </a><hr>
+                <a href="" style="display: flex;justify-content: space-between; text-decoration: none;font-size: 11px;" class="share mt-2 mb-2 category">
+                    <div>FEATURED</div>
+                    <div>56</div>
+                </a><hr>
+            </div>
+            <!-- popular post -->
+            <div class="row mt-5">
+                <h5 class="sml_headings">POPULAR POST</h5>
+                <img src="./hr img.png" alt="" class="w-75 ms-5">
+                <div class="row mt-3">
+                    <div class="col-3"><a href=""><img src="./popular-1.jpg" alt=""></a></div>
+                    <div class="col-9">
+                        <a href="" class="popular-link">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a><br>
+                        <span class="by-john"> BY JOHN DOE, MARCH 06, 2015</span>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3"><a href=""><img src="./popular-2.jpg" alt=""></a></div>
+                    <div class="col-9">
+                        <a href="" class="popular-link">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a><br>
+                        <span class="by-john"> BY JOHN DOE, MARCH 06, 2015</span>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3"><a href=""><img src="./popular-3.jpg" alt=""></a></div>
+                    <div class="col-9">
+                        <a href="" class="popular-link">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a><br>
+                        <span class="by-john"> BY JOHN DOE, MARCH 06, 2015</span>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3"><a href=""><img src="./popular-4.jpg" alt=""></a></div>
+                    <div class="col-9">
+                        <a href="" class="popular-link">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a><br>
+                        <span class="by-john"> BY JOHN DOE, MARCH 06, 2015</span>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3"><a href=""><img src="./popular-5.jpg" alt=""></a></div>
+                    <div class="col-9">
+                        <a href="" class="popular-link">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a><br>
+                        <span class="by-john"> BY JOHN DOE, MARCH 06, 2015</span>
+                    </div>
+                </div>
+            </div>
+            <!-- text widget -->
+            <div class="row mt-5">
+                <h5 class="sml_headings">INSTAGRAM FEED</h5>
+                <img src="./hr img.png" alt="" class="w-75 ms-5">
+                <p class="paragraph text-center text-dark mt-4">“Here's to the crazy ones. The misfits. The rebels. The troublemakers. The rebels. The troublemakers.The round heads in the square holes. The ones who see things differently...”</p>
+                <span class="share text-center">APPLE INC</span>
+            </div>
+            <!-- advertisement -->
+            <div class="row mt-5">
+                <h5 class="sml_headings">ADVERTISEMENT</h5>
+                <img src="./hr img.png" alt="" class="w-75 ms-5">
+                <div class="d-flex justify-content-center align-items-center mt-4"><img src="./advertisement.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <!-- footer -->
+    <section>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-2">
+                <button class="btn1 rounded-1">Prev</button>
+            </div>
+            <div class="col-md-3">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item disabled">
+                        
+                      
+                      <li class=" pe-3" class="page-item "><a class="page-link " href="#">1</a></li>
+                      <li class=" pe-3"  class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class=" pe-3"  class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="pe-3"  class="page-item"><a class="page-link" href="#">4</a></li>
+                      <li class=" pe-3"  class="page-item"><a class="page-link" href="#">5</a></li>
+                      
+                        
+                      </li>
+                    </ul>
+                  </nav>
+    
+            </div>
+            <div class="col-md-2">
+               <button class="btn1 rounded-1">Next</button>
+            </div>
+            <div class="col-3"></div>
+        </div>
+       </section>
+       <hr>
+    
+       <section >
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center ms-5" >
+                <div class="col-2">
+                    <div class="rounded-5 circle d-flex ms-5 "><i class="fa-brands fa-facebook-f text-secondary d-flex justify-content-center align-items-center pt-1 ps-1 pagination1 "></i><span class="ms-4 pagination1 ">FACEBOOK</span></div>
+                </div>
+                <div class="col-2">            
+                    <div class="rounded-5 circle d-flex ms-5"><i class="fa-brands fa-twitter text-secondary d-flex justify-content-center align-items-center pt-1 ps-1  pagination1 "></i><span class="ms-4  pagination1 ">TWITTER</span></div>
+                </div>
+                <div class="col-2">
+                    <div class="rounded-5 circle d-flex ms-5"><i class="fa-brands fa-google-plus text-secondary d-flex justify-content-center align-items-center pt-1 ps-1  pagination1  "></i><span class="ms-4  pagination1 ">GOOGLE</span></div>
+                </div>
+                <div class="col-2">
+                    <div class="rounded-5 circle d-flex ms-5"><i class="fa-brands fa-instagram text-secondary d-flex justify-content-center align-items-center pt-1 ps-1  pagination1 "></i><span class="ms-4  pagination1  ">INSTAGARAM</span></div>
+                </div>
+                <div class="col-2">
+                    <div class="rounded-5 circle d-flex ms-5"><i class="fa-brands fa-pinterest text-secondary d-flex justify-content-center align-items-center pt-1 ps-1  pagination1 "></i><span class="ms-4  pagination1 ">PINTEREST</span></div>
+                </div>
+                <div class="col-2">
+                    <div class="rounded-5 circle d-flex ms-5"><i class="fa-brands fa-linkedin text-secondary d-flex justify-content-center align-items-center pt-1 ps-1  pagination1 "></i><span class="ms-4  pagination1 ">LINKEDIN</span></div>
+                </div>
+                
+            </div>
+    
+        </div>
+       </section>
+       <br>
+       <section class="footer" style="background-image: url(./images/footer-patern.jpg);">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-3 me-4">
+                <span>ABOUT</span>
+                <img  src="./images/WhatsApp Image 2024-05-11 at 22.14.54_d8a3d2ad.jpg">
+                <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.</p>
+                <p>Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl.</p>
+                <img  src="./images/logo-yellow.png">
+            </div>
+            <div class="col-3 me-5 ms-4">
+                <span>RANDOM POSTS</span>
+                <img src="./images/WhatsApp Image 2024-05-11 at 22.14.54_d8a3d2ad.jpg" >
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/post-img-6.jpg" class="d-block w-100" height="200px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>LIFESTYLE</h5>
+                          <p class="botton-slider-title">Some representative placeholder content for the first slide.</p>
+                        </div>
+                        <p></p>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/post-img-7.jpg" class="d-block w-100 " height="200px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <a class="text-decoration-none text-light " href="">LIFESTYLE</a><br>
+                          <p  class="botton-slider-title" href=""> Sed pretium, ligula sollicitudin laoreet viverra, tortor libero </p>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                    <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.</p>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <span>NEWSLETTER</span>
+                <img src="./images/WhatsApp Image 2024-05-11 at 22.14.54_d8a3d2ad.jpg">
+                
+                <p>Get an email of every new post! We'll never share your address.</p>
+    
+               <div class="d-flex gap-0 w-100 btninput rounded-1 ">
+                    <input type="text" placeholder="your email here....." class="form-control ">
+                    <button type="submit" class="rounded-1 btn btn-dark">SUBSCRIBE</button>
+               </div>
+                
+                <div class="tags ">
+                    <h6 class="text-center mt-5">Tags</h6>
+                    <img src="./images/WhatsApp Image 2024-05-11 at 22.14.54_d8a3d2ad.jpg">
+                    <div class="row mb-2">
+                        <div class="col-2 me-3">
+                           <a  href="#.">FASHION</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="#.">FOOD</a>
+                        </div>
+                        <div class="col-2 me-3">
+                            <a href="#.">DESIGN</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="#.">ART</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="#.">LIFESTYLE</a>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="row mb-2">
+                        <div class="col-md-2 me-2">
+                            <a href="#.">TRAVEL</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="#.">SHOP</a>
+                        </div>
+                        <div class="col-3 me-2">
+                            <a href="#.">INSTAGARAM</a>
+                        </div>
+                        <div class="col-2 me-2">
+                            <a href="#.">GALLERY</a>
+                        </div>
+                        <div class="col-2">
+                            <a href="#.">LIFE</a>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a href="#.">CITY</a>
+                        </div>
+                        <div class="col-md-2 me-3">
+                            <a href="#.">COFFEE</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#.">PHOTOGRAPHY</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#.">MUSIC</a>
+                        </div>
+                        
+                    </div>
+    
+    
+                  </div>
+            </div>
+            
+            <div class="col-1 ms-5"></div>
+        </div>
+       </section>
+    
+       <section class="ftr">
+        <span class="text-light d-flex justify-content-center align-items-center">FOLLOW ME ON<i class="fa-brands fa-flickr text-warning"></i> FLICKER</span>
+       
+       
+       <div class="row">
+        <div class="col-md-2">
+            <img src="./images/flicker-1.jpg">
+        </div>
+        <div class="col-md-2">
+            <img src="./images/flicker-2.jpg">
+        </div>
+        <div class="col-md-2">
+            <img src="./images/flicker-3.jpg">
+        </div>
+        <div class="col-md-2">
+            <img src="./images/flicker-4.jpg">
+        </div>
+        <div class="col-md-2">
+            <img src="./images/flicker-5.jpg">
+    
+        </div>
+        <div class="col-md-2">
+            <img src="./images/flicker-6.jpg">
+    
+        </div>
+        <span class="text-light d-flex justify-content-center align-items-center">© 2015 - All Rights Reserved. Designed by upifix</span>
+       </div>
+       </section>
+</body>
+</html>
